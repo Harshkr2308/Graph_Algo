@@ -13,7 +13,7 @@ void dfs1(int i, vector<bool> &vis, stack<int> &st)
     }
     st.push(i);
 }
-void reverse(int v)
+void reverse(int v)  // transpose of G
 {
     for (int i = 0; i < v; i++)
     {
